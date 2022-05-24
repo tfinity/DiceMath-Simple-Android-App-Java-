@@ -84,8 +84,11 @@ public class exam extends AppCompatActivity {
     }
 
     public void next(View view) {
-        if(count>10){
+        result.setText(" ");
+        if(count==10){
             next.setText("Finish");
+        }
+        if(count>10){
             finish();
         }
         Random ran=new Random();

@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openGit(View view) {
-        Intent intent=new Intent(Intent.ACTION_VIEW,Uri.parse("https://github.com/tfinity"));
+        Intent intent=new Intent(Intent.ACTION_VIEW,Uri.parse("https://github.com/tfinity/DiceMath-Simple-Android-App-Java-"));
         startActivity(intent);
     }
 
